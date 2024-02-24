@@ -1,0 +1,35 @@
+
+
+
+.buy {
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	padding: 13px 18px;
+	border: none;
+	border-radius: 60px;
+
+	color: var(--primary-text-color);
+	border: 1px solid var(--primary-text-color);
+	background-color: transparent;
+	width: 100%;
+
+	transition: all var(--transition);
+
+	&:hover {
+		color: var(--primary-bg-color);
+		background-color: var(--primary-text-color);
+	}
+}
+
+
+.buttons{
+	display: flex;
+	justify-content: space-between;
+	margin-top: auto;
+
+	@media screen and (max-width: 776px) {
+		flex-direction: column;
+	}
+}
